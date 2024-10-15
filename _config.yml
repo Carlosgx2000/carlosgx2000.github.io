@@ -1,0 +1,57 @@
+# Welcome to Jekyll!
+
+#Este archivo de configuración está destinado a ajustes que afectan a todo tu blog, valores
+#que se espera que configures una vez y rara vez edites después de eso. Si te encuentras
+#editando este archivo con mucha frecuencia, considera usar la función de archivos de datos
+#de Jekyll para los datos que necesites actualizar frecuentemente.
+#Por razones técnicas, este archivo NO se recarga automáticamente cuando usas
+#'bundle exec jekyll serve'. Si cambias este archivo, por favor reinicia el proceso del servidor.
+#Si necesitas ayuda con la sintaxis de YAML, aquí tienes algunas referencias rápidas:
+
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+#Configuración del sitio
+#Estos se usan para personalizar tu nuevo sitio. Si miras en los archivos HTML,
+#verás que se acceden a ellos a través de {{ site.title }}, {{ site.email }} y otros.
+#Puedes crear cualquier variable personalizada que desees, y estarán disponibles
+#en las plantillas a través de {{ site.myvariable }}.
+
+
+title: "Mi Blog"
+email: carlosmanuelgomezx@gmail.com
+description: "Descripción del blog"
+description: >- # esto significa ignorar los saltos de línea hasta "baseurl:"
+  Escribe una descripción impresionante para tu nuevo sitio aquí. Puedes editar esta
+  línea en _config.yml. Aparecerá en el meta de la cabecera de tu documento (para
+  los resultados de búsqueda de Google) y en la descripción del sitio en tu feed.xml.
+baseurl: "Blog" # la subruta de tu sitio, por ejemplo, /blog
+url:https://carlosgx2000.github.io # el nombre de host y protocolo base para tu sitio, por ejemplo, http://example.com
+twitter_username: carlosgomezxamena
+github_username:  carlosgx2000
+
+# Configuración de compilación
+theme: minima
+
+plugins:
+  - jekyll-feed
+
+# Excluir del procesamiento.
+# Los siguientes elementos no se procesarán, por defecto.
+# Cualquier elemento listado bajo la clave `exclude:` aquí se añadirá automáticamente a
+# la "lista predeterminada" interna.
+#
+# Los elementos excluidos pueden ser procesados si se enumeran explícitamente
+# los directorios o la ruta de archivo de sus entradas en la lista `include:`.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
